@@ -5,12 +5,10 @@
 </template>
 
 <script type = "module">
-import HelloWorld from "./components/HelloWorld.vue";
-
 export default {
-  name: "App",
-  components: {
-    HelloWorld
-  }
+  name: "App"
 };
 </script>
+<style lang="scss">
+@import "./assets/style/reset.css";
+</style>
